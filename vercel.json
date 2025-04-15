@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "buildCommand": false,
-  "devCommand": false,
+  "buildCommand": null,
+  "devCommand": null,
   "outputDirectory": "public",
   "rewrites": [
     { "source": "/api/:path*", "destination": "http://api.grid369.com/api/:path*" }
