@@ -3,10 +3,12 @@
   "buildCommand": null,
   "outputDirectory": "public",
   "rewrites": [
-    { "source": "/api/:path*", "destination": "http://api.grid369.com/api/:path*" }
+    { "source": "/api/:path*", "destination": "http://api.grid369.com/api/:path*" },
+    { "source": "/ai/:path*", "destination": "http://ai.grid369.com/:path*" }
   ],
   "env": {
     "API_URL": "http://api.grid369.com",
+    "AI_ORCHESTRATOR_URL": "http://ai.grid369.com",
     "SECONDARY_API_URL": "http://backup-api.grid369.com"
   }
 }
